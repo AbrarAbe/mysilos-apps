@@ -1,0 +1,12 @@
+{
+        "name": "PhotoPea",
+        "scope": ["https://photopea.com/"],
+        "plugins": [
+            { "name": "GoogleAuthentication" },
+            { "name": "MultiProfile" }
+        ],
+        "home": "https://photopea.com/",
+        "icon": "icons/photopea.svg",
+        "saveSession": true,
+        "download": true
+}
