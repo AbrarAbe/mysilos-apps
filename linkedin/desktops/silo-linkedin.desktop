@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Standalone silo app for Github
+Exec=silo -a linkedin
+GenericName=LinkedIn
+Icon=/usr/share/silos-apps/icons/linkedin.svg
+MimeType=
+Name=LinkedIn
+Path=
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development;
+StartupWMClass=silos-linkedin

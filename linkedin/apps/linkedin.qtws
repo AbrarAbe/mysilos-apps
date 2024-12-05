@@ -1,0 +1,13 @@
+{
+        "name": "LinkedIn",
+        "scope": ["https:?:\\/\\/linkedin\\.com(?:\\/.*|)","https?:\\/\\/.*"
+        ],
+        "plugins": [
+            { "name": "GoogleAuthentication" },
+            { "name": "MultiProfile" }
+        ],
+        "home": "https://linkedin.com",
+        "icon": "icons/linkedin.svg",
+        "saveSession": true,
+        "download": true
+}
