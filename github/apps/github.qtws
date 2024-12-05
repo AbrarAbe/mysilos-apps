@@ -1,0 +1,40 @@
+{
+        "name": "GitHub",
+        "scope": [
+            "https?\\:\\/\\/github\\.com(?:\\/.*|)","https?:\\/\\/.*"
+        ],
+        "plugins": [
+            { "name": "GoogleAuthentication" },
+            { "name": "MultiProfile" }
+        ],
+        "home": "https://github.com/",
+        "icon": "icons/github.svg",
+        "saveSession": true,
+        "download": true,
+	"menu": [
+            {
+                "title": "Dashboard",
+                "action": "https://github.com/dashboard"
+            },
+            {
+                "title": "Repositories",
+                "action": "https://github.com/\\?tab=repositories"
+            },
+            {
+                "title": "Issues",
+                "action": "https://github.com/issues"
+            },
+            {
+                "title": "Pull Requests",
+                "action": "https://github.com/pulls"
+            },
+            {
+                "title": "Discussions",
+                "action": "https://github.com/discussions"
+            },
+            {
+                "title": "Settings",
+                "action": "https://github.com/settings/profile"
+            }
+        ]
+}
